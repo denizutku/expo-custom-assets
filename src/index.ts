@@ -23,7 +23,7 @@ function withCustomAssetsAndroid(
         "app",
         "src",
         "main",
-        "res"
+        "assets"
       );
       const rawDir = path.join(resDir, "raw");
       ensureDirSync(rawDir);
